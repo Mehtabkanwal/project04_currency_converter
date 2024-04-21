@@ -1,4 +1,4 @@
-#! usr/bin/env node
+#! /usr/bin/env node
 import chalk from "chalk";
 import inquirer from "inquirer";
 console.log(chalk.underline.bold.blueBright.bgWhiteBright('\t\t********************WELCOME TO KANWAL CURRENCY EXCHANGE**********************************'))

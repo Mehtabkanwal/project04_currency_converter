@@ -1,10 +1,15 @@
 {
-  "name": "mehtab-kanwal-currencyconverter-project",
-  "version": "1.0.0",
+  "name": "currencyconverter-mehtabbilal-cli-project",
+  "version": "2.0.1",
   "description": "",
   "main": "index.js",
   "type": "module",
-  "bin": "index.js",
+  "bin": {
+    "currencyconverter-mehtabbilal-cli-project": "index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
